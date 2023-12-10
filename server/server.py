@@ -4,7 +4,7 @@ import mercadopago
 app = Flask(__name__)
 
 # Reemplaza "YOUR_ACCESS_TOKEN" con tu token de acceso real
-sdk = mercadopago.SDK("TEST-5362043136621882-120602-e9695a62863efd435b6d259cc09a8231-117811692")
+sdk = mercadopago.SDK("YOUR_ACCESS_TOKEN")
 
 @app.route("/")
 def index():
